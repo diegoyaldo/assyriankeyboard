@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assyrian Keyboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f7f7f7;
+    color:#111;
+}
+
+/* HEADER */
+header{
+    height:72px;
+    width:100%;
+    background:#ffffff;
+    border-bottom:1px solid #e8e8e8;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding:0 48px;
+}
+
+header h1{
+    font-size:28px;
+    font-weight:700;
+}
+
+/* MAIN CONTENT */
+main{
+    width:100%;
+    max-width:900px;
+    margin:70px auto;
+    padding:0 40px;
+}
+
+.hero h2{
+    font-size:46px;
+    margin-bottom:18px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.7;
+    color:#444;
+    max-width:760px;
+    margin-bottom:38px;
+}
+
+/* SECTION */
+.section-title{
+    font-size:30px;
+    margin-bottom:22px;
+}
+
+.instructions{
+    padding-left:24px;
+    margin-bottom:40px;
+}
+
+.instructions li{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:12px;
+    color:#222;
+}
+
+
+/* BUTTON */
+.download-btn{
+    display:inline-block;
+    background:#111;
+    color:#fff;
+    text-decoration:none;
+    padding:16px 34px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:700;
+    transition:0.2s ease;
+}
+
+.download-btn:hover{
+    opacity:0.88;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+header{
+    padding:0 20px;
+}
+
+header h1{
+    font-size:22px;
+}
+
+main{
+    margin:45px auto;
+    padding:0 20px;
+}
+
+.hero h2{
+    font-size:34px;
+}
+
+.hero p,
+.instructions li{
+    font-size:16px;
+}
+
+.section-title{
+    font-size:26px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Assyrian Keyboard</h1>
+</header>
+
+<main>
+
+<section class="hero">
+    <h2>Download the Windows Keyboard Layout</h2>
+
+    <p>
+        Install the Assyrian Syriac keyboard for Windows and switch between English and Assyrian instantly using your keyboard. Please note that at this time, this keyboard is only avaliable for Windows users. We apologize for any inconvenience!
+    </p>
+</section>
+
+<section>
+    <h3 class="section-title">Installation Instructions:</h3>
+
+    <ol class="instructions">
+        <li>Download the span class="highlight"> ZIP file below.</li>
+        <li>Extract the folder.</li>
+        <li>Run setup.exe.</li>
+        <li>Complete the installer.</li>
+        <li>Restart your laptop or PC.</li>
+        <li>Press Windows + Space to switch keyboards.</li>
+        <li>Make sure English (United States) is also installed.</li>
+        <li>Check in: Settings → Time & Language → Language & Region</li>
+    </ol>
+
+    <a class="download-btn" href="downloads/AssyrianKeyboard.zip" download>
+        Download for Windows
+    </a>
+</section>
+
+</main>
+
+</body>
+</html>
